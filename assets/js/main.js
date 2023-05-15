@@ -62,7 +62,9 @@ window.addEventListener('scroll', function() {
 
 
 
-
+/* CV */
+const cv = document.getElementById('cv')
+cv.addEventListener('click', () => { window.open('https://drive.google.com/file/d/1FTtNmfdnhY9U_DdsCcOzVw0RacSZdGEY/view?usp=sharing') })
 
 
 
