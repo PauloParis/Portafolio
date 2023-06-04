@@ -64,7 +64,7 @@ window.addEventListener('scroll', function() {
 
 /* CV */
 const cv = document.getElementById('cv')
-cv.addEventListener('click', () => { window.open('https://drive.google.com/file/d/1yWSwNwib_Fpn1HcesFVk8uu49hi6EHHr/view?usp=sharing') })
+cv.addEventListener('click', () => { window.open('https://docs.google.com/document/d/17Jdg6PwiC_dj_DOxx1WRNUoIpqvUAe2a/edit?usp=sharing&ouid=106033632182647737532&rtpof=true&sd=true') })
 
 
 
