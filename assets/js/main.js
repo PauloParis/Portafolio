@@ -64,7 +64,7 @@ window.addEventListener('scroll', function() {
 
 /* CV */
 const cv = document.getElementById('cv')
-cv.addEventListener('click', () => { window.open('https://drive.google.com/file/d/15c60iHWSObWIVPV3m9bwOmNV5HFpANZL/view?usp=sharing') })
+cv.addEventListener('click', () => { window.open('https://drive.google.com/file/d/1Pn9mX87LyMGaHVm1XxRBqPEf6MdxKmNK/view?usp=sharing') })
 
 
 
@@ -102,6 +102,15 @@ const demoUrl = document.getElementById('demoUrl');
 gitFrontUrl.addEventListener('click', () => window.open("https://github.com/PauloParis/Vue3-Pinia-JWT-Quasar-shortURL"));
 gitBacktUrl.addEventListener('click', () => window.open("https://github.com/PauloParis/API-Rest-Express-Mongo-JWT-shortURL"));
 demoUrl.addEventListener('click', () => window.open("https://short-url-vue-quasar-jwt.netlify.app/"));
+
+
+// short url
+const gitTask = document.getElementById('gitTask');
+const demoTask = document.getElementById('demoTask');
+gitTask.addEventListener('click', () => window.open("https://github.com/PauloParis/Vue3-optionApi-vuex-vue-draggable-next-bootstrap-ListaTareas"));
+demoTask.addEventListener('click', () => window.open("https://lista-tareas-vue-optionapi.netlify.app/"));
+
+
 
 // QR
 const gitQR = document.getElementById('gitQR');

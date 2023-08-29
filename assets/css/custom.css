@@ -301,6 +301,14 @@ a {
 
 
 
+@media only screen and (max-width: 856px) {
+    .row-contenido {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 
 
 
